@@ -1,0 +1,137 @@
+
+.header{
+    background-color:rgba(197, 194, 194, 0.37);
+    min-width: 100%;
+    min-height: 50px;
+}
+.header h1{
+    display:inline-block;
+    min-width: 55%;
+    padding-left:30px;
+}
+.header h2{
+    display:inline-block;
+    text-align: right;
+    min-width: 40%;
+}
+
+ .wrapper{
+    background:rgb(78, 4, 4);
+    display:block;
+    width: 980px;
+    min-height: 800px;
+    padding:0;
+    
+}
+
+
+.wrapper.top{
+    width:30%;
+    
+    float: right;
+    background: black;
+    display:inline-block;
+    padding:0px;
+}
+
+#photo1{
+    margin:10px 0px 10px 10px;;
+    position: relative;
+    left:10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: gray;
+}
+.writing{
+     position: absolute;
+    right:40px; 
+    display: inline-block;
+    width: 450px;
+    height: 340px;
+    background-color:rgb(245, 233, 233);
+    vertical-align: top;
+    margin: 10px 0px 10px 0px;;
+}
+ .writing h2{
+    color:white;
+    background: linear-gradient(rgb(218, 207, 207), rgb(199, 191, 191));
+    display:inline-block;
+    margin:0px;
+    vertical-align: top;
+    padding:10px 0px 10px 10px;
+    width:440px;
+    text-align: left;
+}
+
+.writing p{
+    margin:10px 20px;
+    font-size: 18px;
+
+
+}
+.box{
+    display:inline-block;
+    width:28%;
+    height:420px;
+    background:rgb(245, 233, 233);;
+    padding:0;
+    margin:23px;
+    vertical-align: top;    
+    position:relative;
+    top:5px;
+}
+
+.box h2{
+    background: linear-gradient(rgb(218, 207, 207), rgb(199, 191, 191));
+    color:white;
+    margin:0;
+    /* height:40px; */
+    padding:10px 0px 10px 10px;
+    
+}
+.box p{
+    padding:0px;
+    margin:0px;
+}
+
+.box h3{
+    background: linear-gradient(rgb(218, 207, 207), rgb(199, 191, 191));
+    color:white;
+    margin:2px;;
+    height:25px;
+    padding:0px;
+
+}
+
+.box ul{
+    padding:0px;
+}
+.box li{
+    display: inline-block;
+    padding:0px;
+    margin:0px 20px 10px 30px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    height:30px;
+    width:120px;
+    margin:0px 0px 0px 180px;
+    
+}
+
+.footer{
+    background-color:rgba(197, 194, 194, 0.37);
+    text-align: center;
+    font-color:black;
+    font-weight: 200;
+}
+ 
